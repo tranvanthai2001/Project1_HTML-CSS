@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="menubar">
+        <div class="menubar__container">
+            <div class="menubar__container--right">
+                <nav>
+                </nav>
+                <ul>
+                    <div class="right__logo">
+                        <li><a href="#"><i class="fa-solid fa-bed"></i>Logo</a></li>
+                    </div>
+                    <li><a href="#phongg">Rooms</a></li>
+                    <li><a href="#trongkhoang">About</a></li>
+                    <li><a href="#dat">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menubar__container--left">
+                <a href="#lienhee">BOOK NOW</a>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <div class="all">
+        <!--form-->
+        <article>
+            <div class="form">
+                <div class="form__container">
+                    <div class="form__container--head">
+                        <i class="fa-solid fa-bed"></i>Hotel Name
+                    </div>
+                    <form class="form__container--body">
+                        <div class="body__textbox">
+                            <div class="body__textbox--1">
+                                <label>
+                                    <i class="fa-solid fa-calendar-days"></i>Check in
+                                </label>
+                                <input type="text" placeholder="DD MM YYYY" required>
+                            </div>
+                            <div class="body__textbox--2">
+                                <label>
+                                    <i class="fa-solid fa-calendar-days"></i>Check out
+                                </label>
+                                <input type="text" placeholder="DD MM YYYY" required>
+                            </div>
+
+                            <div class="body__textbox--3">
+                                <label>
+                                    <i class="fa-solid fa-person"></i>Adults
+                                </label>
+                                <input type="number" min="0" max="5" required>
+                            </div>
+                            <div class="body__textbox--4">
+                                <label>
+                                    <i class="fa-solid fa-person"></i>Kids
+                                </label>
+                                <input type="number" min="0" max="5" required>
+                            </div>
+                            <div>
+                                <button class="button button1">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </article>
+        <!--form -->
+        <!-- zoom -->
+        <section>
+            <div class="zoom" id="phongg">
+                <h1>Rooms</h1>
+                <br>
+                <p>Tự nhiên như ở nhà là khẩu hiệu của chúng tôi. Chúng tôi cung cấp những chiếc giường tốt nhất trong
+                    ngành. Ngủ ngon và nghỉ ngơi tốt.</p>
+                <div class="zoom__head">
+                    <div class="zoom__head--textbox1">
+                        <label>
+                            <i class="fa-solid fa-calendar-days"></i>Check in
+                        </label>
+                        <input type="text" placeholder="DD MM YYYY" required>
+                    </div>
+                    <div class="zoom__head--textbox2">
+                        <label>
+                            <i class="fa-solid fa-calendar-days"></i>Check out
+                        </label>
+                        <input type="text" placeholder="DD MM YYYY" required>
+                    </div>
+                    <div class="zoom__head--textbox3">
+                        <label>
+                            <i class="fa-solid fa-person"></i>Adults
+                        </label>
+                        <input type="number" min="0" max="5" required>
+                    </div>
+                    <div class="zoom__head--textbox4">
+                        <label>
+                            <i class="fa-solid fa-person"></i>Kids
+                        </label>
+                        <input type="number" min="0" max="5" required>
+                    </div>
+                    <div class="zoom__head--btn">
+                        <label>
+                            <i class="fa-solid fa-magnifying-glass"></i>Search
+                        </label>
+                        <button class="head__btn--bt">Search</button>
+                    </div>
+                </div>
+                <div class="zoom__body">
+                    <div class="zoom__body--number">
+                        <div class="number__img">
+                            <img src="image/room_single.jpg" alt="phongdon">
+                        </div>
+                        <div class="number__info">
+                            <h1>Single Room</h1>
+                            <br>
+                            <p>Từ $<sub>99</sub></p>
+                            <br>
+                            <p>Giường đơn</p>
+                            <br>
+                            <p>15m<sup>2</sup></p>
+                            <br>
+                            <i class="fa-solid fa-bath"></i><i class="fa-solid fa-phone"></i><i
+                                class="fa-solid fa-wifi"></i>
+                            <button class="number__info--btn">Chọn phòng</button>
+                        </div>
+                    </div>
+                    <div class="zoom__body--number">
+                        <div class="number__img">
+                            <img src="image/room_double.jpg" alt="phong doi">
+                        </div>
+                        <div class="number__info">
+                            <h1>Doubl Room</h1>
+                            <br>
+                            <p>Từ $<sub>149</sub></p>
+                            <br>
+                            <p>Giường đôi</p>
+                            <br>
+                            <p>25m<sup>2</sup></p>
+                            <br>
+                            <i class="fa-solid fa-bath"></i><i class="fa-solid fa-phone"></i><i
+                                class="fa-solid fa-wifi"></i><i class="fa-solid fa-gamepad"></i>
+                            <button class="number__info--btn">Chọn phòng</button>
+                        </div>
+                    </div>
+                    <div class="zoom__body--number">
+                        <div class="number__img">
+                            <img src="image/room_deluxe.jpg" alt="phong xin">
+                        </div>
+                        <div class="number__info">
+                            <h1>Deluxe Room</h1>
+                            <br>
+                            <p>Từ $<sub>199</sub> </p>
+                            <br>
+                            <p>Giường cỡ lớn</p>
+                            <br>
+                            <p>40m<sup>2</sup></p>
+                            <br>
+                            <i class="fa-solid fa-bath"></i><i class="fa-solid fa-phone"></i><i
+                                class="fa-solid fa-wifi"></i><i class="fa-solid fa-briefcase"></i><i
+                                class="fa-solid fa-book"></i>
+                            <button class="number__info--btn">Chọn phòng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- zoom -->
+
+        <!-- map -->
+        <section>
+            <div class="map" id="trongkhoang">
+                <div class="mapa">
+                    <div class="mapa__info">
+                        <h1>About</h1>
+                        <p>Chính thức : Ronaldo vẫn muốn thi đấu ở Euro 2024 mới tính đến chuyện từ giã đội tuyển 🇵🇹 .
+                            Đây sẽ là The Last Dance của CR7
+                            🐐Ronaldo - biểu hiện của sự bền bỉ, nỗ lực, xứng đáng để lứa trẻ noi theo. Nếu ví bóng đá
+                            là một thế giới hội hoạ đầy màu sắc thì CR7 chính là hiện thân của bức hoạ Monalisa hoàn hảo
+                            không tì vết, chứ không như ai đó mới chớm sang tuổi 35 đã nghĩ đến chuyện giải nghệ, đi bộ,
+                            dosequat.
+                            FANSIPAN SAPA ĐÓN NHỮNG ĐỢT BĂNG TUYẾT ĐẦU TIÊN ❄️❄️❄️
+                            Liên tiếp sáng hôm qua, chiều hôm qua và sáng nay, băng đã nhuộm trắng đỉnh trời báo hiệu
+                            một mùa săn tuyết xôm tụ cho "Hội những người yêu Sa Pa".
+                            Xách balo lên và đi thôi nàooo!</p>
+                        <br>
+                        <p>Chúng tôi đồng ý:<i class="fa fa-credit-card w3-large"></i> <i
+                                class="fa-solid fa-address-card"></i> </p>
+                    </div>
+                    <div class="mapa__img">
+                        <img src="./image/map.jpg" alt="picture map">
+                    </div>
+                </div>
+                <div class="mapa__contact">
+                    <p><i class="fa fa-map-marker w3-text-red"></i>423 Một số quảng cáo, Chicago, Hoa Kỳ</p>
+                    <p><i class="fa fa-phone w3-text-red"></i>Điện thoại: +00 151515</p>
+                    <p><i class="fa fa-envelope w3-text-red"></i>Email: mail@mail.com</p>
+                </div>
+            </div>
+        </section>
+        <div class="alert">
+            <div class="alert__a">
+                <i class="fa-sharp fa-solid fa-info"></i>
+                <p>Theo yêu cầu, chúng tôi có thể cung cấp máy chơi game, dịch vụ gọi trẻ em, dịch vụ chăm sóc trẻ em,
+                    thiết bị cho chó, v.v.</p>
+            </div>
+        </div>
+        <!-- map -->
+
+        <!-- hotel -->
+        <section>
+            <div class="hotel">
+                <h1>Our Hotels</h1>
+                <p>Bạn có thể tìm thấy khách sạn của chúng tôi ở bất kì đâu trên trên thế giới</p>
+                <div class="hotel__ctn">
+                    <div class="hotel__ctn--separate">
+                        <div class="separate__one">
+                            <img src="./image/cinqueterre.jpg" alt="Cinque Terre">
+                            <span>Cinque Terre</span>
+                        </div>
+                        <div class="separate__two">
+                            <div class="separate__two--share1">
+                                <div class="share1__1">
+                                    <img src="./image/newyork2.jpg" alt="Newyork">
+                                    <span>Newyork</span>
+                                </div>
+                                <div class="share1__2">
+                                    <img src="./image/sanfran.jpg" alt="San Franciso">
+                                    <span>San Franciso</span>
+                                </div>
+                            </div>
+                            <div class="separate__two--share2">
+                                <div class="share2__1">
+                                    <img src="./image/paris.jpg" alt="Pisa">
+                                    <span>Pisa</span>
+                                </div>
+                                <div class="share2__2">
+                                    <img src="./image/pisa.jpg" alt="Paris">
+                                    <span>Paris</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hotel -->
+
+        <!-- mail -->
+        <section>
+            <div class="mail" id="dat">
+                <h1>Get the best offers first!</h1>
+                <h2>Tham gia bản tin của chúng tôi</h2>
+                <label>
+                    <h3>Email</h3>
+                    <input type="email" placeholder="Địa chỉ email của bạn">
+                </label>
+                <button class="button button1">Subscribe</button>
+            </div>
+        </section>
+        <!-- mail -->
+
+        <!-- contact -->
+        <div class="contact">
+            <h1>Contact</h1>
+            <h3>Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại hỏi họ</h3>
+            <p><i class="fa fa-map-marker w3-text-red"></i>Chicago, Hoa Kỳ</p>
+            <p><i class="fa fa-phone w3-text-red"></i>Điện thoại: +00 151515</p>
+            <p><i class="fa fa-envelope w3-text-red"></i>Email: mail@mail.com</p>
+            <input type="text" placeholder="Tên">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Thông điệp">
+            <button class="button button1">SEND MESSAGE</button>
+        </div>
+        <!-- contact -->
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer" id="lienhee">
+            <h1>Find Us On</h1>
+            <div class="tim">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <h2>Powered by <a href="https://www.w3schools.com/w3css/tryw3css_templates_hotel.htm#about">W3.CSS</a></h2>
+        </div>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>

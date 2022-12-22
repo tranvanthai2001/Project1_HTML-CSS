@@ -1,0 +1,161 @@
+
+/* tablet */
+
+@media screen and (max-width: 991px){
+    .all {
+        padding: 0;
+    }
+    .form {
+        background-attachment: fixed;
+    }
+   .form__container {
+        width: 100%;
+   }
+   .body__textbox {
+    display: flex;
+    flex-direction: column;
+   }
+   .body__textbox input {
+    width: 100%;
+    margin-bottom: 30px;
+   }
+   .form__container--body {
+    padding-top:  25px;
+    padding-bottom: 0px;
+   }
+   .zoom {
+        padding: 15px;
+   }
+   .zoom__head {
+    display: flex;
+    flex-direction: column;
+   }
+   .zoom__head input {
+    width: 100%;
+   }
+   .head__btn--bt {
+    padding: 16px 80px;
+    margin-top: 12px;
+   }
+   .zoom__head--btn label {
+    display: none;
+   }
+   .zoom__head--btn label {
+    margin-bottom: 20px;
+   }
+   .zoom__head--btn {
+    text-align: center;
+    padding: 10px;
+   }
+   .zoom__body--number {
+    width: 228px;
+    height: 426px;
+   }
+   .mapa__img {
+    width: auto;
+    height: auto;
+   }
+   .mapa {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+   }
+   .mapa__info {
+    width: 100%;
+   }
+   .mapa__contact p {
+    padding: 14px;
+   }
+   .alert__a {
+    padding: 10px;
+    font-size: 13px;
+   }
+   .hotel {
+    padding: 0 10px;
+   }
+}
+@media screen and (max-width: 767px){
+    .all {
+        padding: 0;
+    }
+    .form {
+        background-attachment: fixed;
+    }
+   .form__container {
+        width: 100%;
+   }
+   .body__textbox {
+    display: flex;
+    flex-direction: column;
+   }
+   .zoom {
+        padding: 15px;
+   }
+   .zoom__head {
+    display: flex;
+    flex-direction: column;
+   }
+   .head__btn--bt {
+    padding: 16px 80px;
+    margin-top: 12px;
+   }
+   .zoom__head--btn label {
+    margin-bottom: 20px;
+   }
+   .zoom__head--btn {
+    text-align: center;
+    padding: 10px;
+   }
+   .zoom__body--number {
+    width: 228px;
+    height: 426px;
+   }
+   .mapa {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+   }
+   .mapa__img {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+   }
+   .mapa__info {
+    width: 100%;
+   }
+   .mapa__contact {
+     display: flex;
+   }
+   .mapa__contact p {
+    padding: 16px;
+   }
+   .alert__a {
+    padding: 10px;
+    font-size: 13px;
+   }
+   .hotel {
+    padding: 0 10px;
+   }
+   .zoom__body {
+    display: flex;
+    flex-direction: column;
+   }
+   .zoom__body--number {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 16px;
+    border-radius: 10px;
+   }
+   .number__img img {
+    border-radius: 10px;
+   }
+   .form__container--body {
+    flex-direction: column;
+   }
+   .body__textbox  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+}
